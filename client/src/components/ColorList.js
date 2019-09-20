@@ -14,6 +14,7 @@ const ColorList = ({ colors, updateColors }) => {
   const editColor = color => {
     setEditing(true);
     setColorToEdit(color);
+    console.log(colorToEdit)
   };
 
   const saveEdit = e => {
